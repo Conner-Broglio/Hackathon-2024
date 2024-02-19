@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: lavenderblush;
+    text-shadow: 4px 4px 4px black;
+}
+
+body {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    background-image: url("pattern.png");
+    background-position: left 20% top;
+}
+
+#googleMap {
+    width: 100%;
+    height: 800px;
+    border: 10px ridge goldenrod;
+    border-radius:30px;
+}
+
+#start {
+    border-radius:10px;
+    border: 4px ridge goldenrod;
+    font-family: 'ITC Cheltenham Std', sans-serif;
+}
+
+#end {
+    border-radius:10px;
+    border: 4px ridge goldenrod;
+    font-family: 'ITC Cheltenham Std', sans-serif;
+}
+
+#radius {
+    border-radius:10px;
+    border: 4px ridge goldenrod;
+    font-family: 'ITC Cheltenham Std', sans-serif;
+}
+
+
+#OriginDestination {
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    text-align: center;
+    color: lavenderblush;
+    text-shadow: 4px 4px 4px black;
+}
+
+div {
+    text-align: center;
+    color: lavenderblush;
+    padding: 10px;
+}
+
+input {
+    border: 3px ridge black;
+    font-size: 20px;
+}
+
+button {
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    color: black;
+    border: 4px ridge goldenrod;
+    border-radius:10px;
+    font-size: 20px;
+}
+
+select{
+    border:none;
+    font-family: 'ITC Cheltenham Std', sans-serif;
+    border-radius:10px;
+    border: 4px ridge goldenrod;
+    font-size: 18px;
+  }
+
+  #rightimg{
+    width: 45%;
+    float: right;
+    border: 10px ridge goldenrod;
+    border-radius:30px;
+  }
+
+#leftimg{
+    width: 45%;
+    float: left;
+    border: 10px ridge goldenrod;
+    border-radius:30px;
+  }
+
+#bottom{
+    float: center;
+    color: lavenderblush;
+    text-shadow: 4px 4px 4px black;
+ }
+
+ #righttext {
+    float: right;
+    color: lavenderblush;
+    text-shadow: 4px 4px 4px black;
+    width: 45%;
+ }
+ #righttext2 {
+    position: absolute;
+    color: lavenderblush;
+    text-shadow: 4px 4px 4px black;
+    width: 45%;
+    font-size: 40px;
+ }
+
+ #lefttext {
+    float: left;
+    color: lavenderblush;
+    text-shadow: 4px 4px 4px black;
+    width: 45%;
+ }
+
+ #lefttext2 {
+    position: absolute;
+    color: lavenderblush;
+    text-shadow: 4px 4px 4px black;
+    width: 45%;
+    font-size: 40px;
+ }
